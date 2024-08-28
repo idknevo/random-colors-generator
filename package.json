@@ -1,0 +1,15 @@
+{
+  "name": "random-colors-generator",
+  "version": "1.0.0",
+  "description": "simple colors generator",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+  },
+  "author": "nevo",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
