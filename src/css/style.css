@@ -73,20 +73,21 @@ body {
 }
 
 .toast.done i {
-  color: #1db641;
+  color: #5b9cf1;
 }
 
 .toast.done::after {
-  background-color: #1db641;
+  background-color: #5b9cf1;
 }
 
 
 .toast.refresh i {
-  color: #5b9cf1;
+  color: #1db641;
+
 }
 
 .toast.refresh::after {
-  background-color: #5b9cf1;
+  background-color: #1db641;
 }
 
 .toast::after {

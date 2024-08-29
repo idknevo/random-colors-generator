@@ -60,7 +60,7 @@ containerEl.addEventListener("click", function (e) {
   if (!color) return;
   copyColor(color);
   toastBox.innerHTML = "";
-  const doneMsg = `<i class="fa-regular fa-circle-check"></i> Copied to clipboard.`;
+  const doneMsg = `<i class="fa-solid fa-check"></i>  Copied to clipboard.`;
   renderMessage(doneMsg);
 });
 
@@ -103,6 +103,6 @@ const addMoreBtn = document.querySelector(".btn");
 addMoreBtn.addEventListener("click", function () {
   generateColorElements(noOfColors);
   toastBox.innerHTML = "";
-  const loadMsg = `<i class="fa-solid fa-check"></i> Generated Successfully.`;
+  const loadMsg = `<i class="fa-regular fa-circle-check"></i> Generated Successfully.`;
   renderMessage(loadMsg);
 });
