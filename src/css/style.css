@@ -43,7 +43,7 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1240px) {
   .toast-box{
     top: 10px;
     left: 0;
@@ -115,7 +115,7 @@ h1 {
   margin: 40px 0;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1240px) {
   h1 {
     text-align: center;
     margin-bottom: 80px;
