@@ -52,7 +52,7 @@ const renderMessage = function (msg) {
   toastBox.appendChild(toast);
   setTimeout(() => {
     toast.remove();
-  }, 4000);
+  }, 10000);
 };
 
 containerEl.addEventListener("click", function (e) {
